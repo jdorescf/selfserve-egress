@@ -1,6 +1,6 @@
 export async function onRequestPost({ params, env }) {
   const { policyId } = params;
-  // Replace with your Cloudflare account details
+  // Replace with your Cloudflare account details here
 
   const accountId = env.ACCOUNT_ID;
   const ruleId = env.RULE_ID;
